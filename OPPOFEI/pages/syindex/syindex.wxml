@@ -67,5 +67,18 @@
 <view id = "btmbody">
   <view class='btmimg'>
   <image id = "btmimg" src='../images/btmimg.png'></image>
+  <view id = "btmte"><text>OPPO Reno\n8G+256G，全景屏。\n</text>
+  <text id = "yang">🐏3599\n</text>
+  <text id = "ljgm">立即购买</text>
+  </view>
+  </view>
+  <view id = "k3"><text id = "k3lx">K3 高能来袭</text></view>
+  <view id = "k3-btm1">
+  <view id = "k3xian"></view>
+  <text id = "k3lx-btm1"><text id = "k3lx-le1">6G+64G版</text>\n¥1599</text>
+  <text id = "k3lx-btm2"><text id = "k3lx-le1">8G+128G版</text>\n¥1899</text>
+  <text id = "zo-fresh">限时赠O-Fresh耳机\n</text>
+  <text id = "qkyd">全款预订</text>
+  <view class = "k3img"><image src='../images/k3img.png ' id = "k3img"></image></view>
   </view>
 </view>
