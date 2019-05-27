@@ -1,0 +1,71 @@
+<swiper autoplay="true"
+  interval="3000"
+  duration="800"
+  circular = "true"
+  indicator-dots = "true"
+  next-margin="0px">
+<swiper-item>
+<image src = "../images/201904100304015cad9c69e00ec.png" id = "swit1"></image>
+<view id = "swit-te"  style = "color:black">
+<span id = "swit-te1">Reno 10 倍变焦版</span>
+<span id = "swit-te2">新品开售，享六期免息</span>
+<span id = "swit-teyd"><a id = "yda"  style = "background:rgb(5, 181, 112);color:white">立即购买</a></span>
+</view>
+</swiper-item>
+<swiper-item>
+<image src = "../images/201905230205585ce63f8aa7c96.jpg" id = "swit6"></image>
+<view id = "swit-te">
+<span id = "swit-te1">闪充家族 高能来袭</span>
+<span id = "swit-te2">最高立减30元，6月1日0点正式开售</span>
+<span id = "swit-teyd"><a id = "yda">全款预定</a></span>
+</view>
+</swiper-item>
+<swiper-item>
+<image src = "../images/201905211105315ce3741f42b73.jpg" id = "swit5"></image>
+<view id = "swit-te">
+<span id = "swit-te1">K3 硬核少年</span>
+<span id = "swit-te2">骁龙710\t\t升降全面屏</span>
+<span id = "swit-teyd"><a id = "yda">立即预定</a></span>
+</view>
+</swiper-item>
+<swiper-item>
+<image src = "../images/201905170905115cde122727eba.jpg" id = "swit3"></image>
+<view id = "swit-te"  style = "color:black">
+<span id = "swit-te1">A9x新品开售</span>
+<span id = "swit-te2">6G+128G，4800万超清像素</span>
+<span id = "swit-teyd"><a id = "yda"  style = "background:rgb(5, 181, 112);color:white">立即购买</a></span>
+</view>
+</swiper-item>
+<swiper-item>
+<image src = "../images/201904110704035caf1e6fbf9d0.jpg" id = "swit2"></image>
+<view id = "swit-te"  style = "color:black">
+<span id = "swit-te1">以旧换新</span>
+<span id = "swit-te2">让闲置回归价值</span>
+<span id = "swit-teyd"><a id = "yda"  style = "background:rgb(5, 181, 112);color:white">立即了解</a></span>
+</view>
+</swiper-item>
+</swiper>
+<view id = "swbtm"><span>官方正品 | 全场包邮 | 1年全国联保 | 七天退货30天换货</span></view>
+<view id = "ic-4">
+    <view class = "ic1">
+    <span id = "ic1-t">K3预定</span>
+    <image src='../images/yudingic.png 'class = "ic1img"></image>
+    </view>
+    <view class = "ic1">
+    <span id = "ic2-t">闪充家族</span>
+    <image src='../images/ic2.png 'class = "ic2img"></image>
+    </view>
+    <view class = "ic1">
+    <span id = "ic3-t">以旧换新</span>
+    <image src='../images/ic3.png 'class = "ic3img"></image>
+    </view>
+    <view class = "ic1">
+    <span id = "ic4-t">新人礼</span>
+    <image src='../images/ic4.png 'class = "ic4img"></image>
+    </view>
+</view>
+<view id = "btmbody">
+  <view class='btmimg'>
+  <image id = "btmimg" src='../images/btmimg.png'></image>
+  </view>
+</view>

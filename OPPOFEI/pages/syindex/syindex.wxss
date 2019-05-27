@@ -1,0 +1,137 @@
+swiper{
+  width: 750rpx;
+  height: 320rpx;
+  color: white;
+}
+#swit1,#swit2,#swit3,#swit4,#swit5,#swit6{
+  position: absolute;
+  width: 900rpx;
+  height: 320rpx;
+  margin-left: -150rpx;
+}
+#swit-te{
+  position: relative;
+  width: 320rpx;
+  height: 300rpx;
+  top: 80rpx;
+  left: 235rpx;
+  text-align: center;
+}
+#swit-te1{
+  position:absolute;
+  width: 320rpx;
+  margin-top: 30rpx;
+  font-size: 38rpx;
+  font-weight: bold;
+}
+#swit-te2{
+  position:absolute;
+  width: 320rpx;
+  margin-top: 90rpx;
+  font-size: 27rpx;
+}
+#swit-teyd{
+  position: absolute;
+  width: 320rpx;
+  height: auto;
+  margin-top: 135rpx;
+  font-size: 20rpx;
+}
+#yda{
+  width: auto;
+  height: auto;
+  padding: 5rpx 15rpx;
+  background: white;
+  border-radius: 20rpx;
+  color: black
+}
+#swbtm{
+  position: relative;
+  width: 750rpx;
+  height: auto;
+  top:20rpx;
+  text-align: center;
+  letter-spacing: 3rpx;
+  font-size: 22rpx;
+  color: rgb(116, 116, 118);
+}
+#ic-4{
+  position:relative;
+  width: 750rpx;
+  height: 250rpx;
+  top: 40rpx;
+}
+.ic1{
+  position:relative;
+  width: 175rpx;
+  height: 190rpx;
+  float: left;
+  left: 25rpx;
+  top:30rpx;
+  text-align: center;
+}
+#ic1-t{
+  position:absolute;
+  width: 175rpx;
+  font-size: 30rpx;
+  margin-top: 100rpx;
+  margin-left: -55rpx;
+}
+#ic2-t{
+  position:absolute;
+  width: 175rpx;
+  font-size: 30rpx;
+  margin-top: 100rpx;
+  margin-left: -40rpx;
+}
+#ic3-t{
+  position:absolute;
+  width: 175rpx;
+  font-size: 30rpx;
+  margin-top: 100rpx;
+  margin-left: -40rpx;
+}
+#ic4-t{
+  position:absolute;
+  width: 175rpx;
+  font-size: 30rpx;
+  margin-top: 100rpx;
+  margin-left: -40rpx;
+}
+.ic1img{
+  width: 65rpx;
+  height: 80rpx;
+}
+.ic2img{
+  width: 90rpx;
+  height: 80rpx;
+}
+.ic3img{
+  width: 80rpx;
+  height: 82rpx;
+}
+.ic4img{
+  width: 75rpx;
+  height: 75rpx;
+}
+#btmbody{
+  position: relative;
+  width: 750rpx;
+  height: 1000rpx;
+  background: rgb(2, 13, 43)
+}
+.btmimg{
+  position: relative;
+  width: 700rpx;
+  height: 380rpx;
+  top:30rpx;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px;
+  border-radius: 20rpx;
+}
+#btmimg{
+  width: 400rpx;
+  height: 380rpx;
+  border-radius: 20rpx;
+}

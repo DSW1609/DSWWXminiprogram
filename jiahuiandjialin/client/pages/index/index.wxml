@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class = "sy">
+<view class = "btmnav">
+<view class = "tx"><image bindtap='te1' bindlongpress="te1ca" src='../images/tx.png' class='tximg'></image></view>
+<view class = "tx2"><image bindtap='te2' src='../images/tx.png' class='tximg'></image></view>
+<view class = "tx3"><image bindtap='te3' src='../images/tx.png' class='tximg'></image></view>
+<view class='dl1-cs' style='top:{{top1}}rpx;left:{{left1}}rpx'><image src='../images/tx.png' class="tximg"></image></view>
+<view class='dl2-cs' style='top:{{top2}}rpx;left:{{left2}}rpx'><image src='../images/tx.png' class="tximg"></image></view>
+<view class='dl3-cs' style='top:{{top3}}rpx;left:{{left3}}rpx'><image src='../images/tx.png' class="tximg"></image></view>
+</view>
+<swiper
+  autoplay="true"
+  interval="2000"
+  duration="500"
+  next-margin="0px">
+<swiper-item><image src="../images/201804251335156152.jpg"/></swiper-item>
+<swiper-item><image src="../images/201806011047033660.jpg"/></swiper-item>
+<swiper-item><image src="../images/201807311021162143.jpg"/></swiper-item>
+</swiper>
+<image id = "yxbg" src='../images/yxbg.png'></image>
+<view class="jia-ic"></view>
+<view class="jiaz-ic"></view>
+<view class="jia2-ic"></view>
+<view class="yuan-ic"><view class='yuan2-ic'></view></view>
+</view>
+ 

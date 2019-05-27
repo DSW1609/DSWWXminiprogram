@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/syindex/syindex"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "OPPO非官方商城",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
