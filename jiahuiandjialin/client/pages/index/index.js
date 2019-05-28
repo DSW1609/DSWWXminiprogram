@@ -9,58 +9,76 @@ Page({
         logged: false,
         takeSession: false,
         top1: 0,
-        left1:0,
-        left1sj:0,
-
         top2: 0,
-        left2: 235,
-        left2sj: 0,
-
         top3: 0,
-        left3: 470,
-        left3sj: 0
+        img1sjs: 0,
+        img2sjs: 0,
+        img3sjs: 0,
+        sjimg1:'sj1',
+        sjimg2: 'sj1',
+        sjimg3: 'sj1',
+        sjimgarr:['sj1', 'sj2', 'sj3', 'sj4', 'sj5', 'sj6', 'sj7', 'sj8', 'sj9', 'sj10', 'sj11', 'sj12']
     },
 
     te1: function(){
-      var that = this;
       var top1 = this.data.top1;
-      var left1 = this.data.left1;
-      var left1sj = this.data.leftsj;
-      left1sj = Math.random() * 750;
+      var sjimg1 = this.data.sjimg1;
+      var sjimgarr = this.data.sjimgarr;
+      var img1sjs = this.data.img1sjs = Math.round(Math.random() * 11);
       if (top1 == -1100){
-        this.setData({ top1: 0 }),
-        this.setData({ left1: 0})
+        this.setData({ top1: 0 })
       }else{
-        this.setData({ top1: '-1100' }),
-        this.setData({ left1: left1sj })
+        this.setData({ top1: -1100 }),
+        this.setData({ sjimg1: sjimgarr[img1sjs] })
       }
   },
     te2: function () {
-      var that = this;
       var top2 = this.data.top2;
-      var left2 = this.data.left2;
-      var left2sj = this.data.left2sj;
-      left2sj = Math.random() * 750;
+      var sjimg2 = this.data.sjimg2;
+      var sjimgarr = this.data.sjimgarr;
+      var img2sjs = this.data.img2sjs = Math.round(Math.random() * 11);
       if (top2 == -1100) {
-        this.setData({ top2: 0 }),
-        this.setData({ left2: 235 })
+        this.setData({ top2: 0 })
       } else {
         this.setData({ top2: -1100}),
-        this.setData({ left2: left2sj })
+        this.setData({ sjimg2: sjimgarr[img2sjs] })
       }
   },
     te3: function () {
-      var that = this;
       var top3 = this.data.top3;
-      var left3 = this.data.left3;
-      var left3sj = this.data.left3sj;
-      left3sj = Math.random() * 550;
+      var sjimg3 = this.data.sjimg3;
+      var sjimgarr = this.data.sjimgarr;
+      var img3sjs = this.data.img3sjs = Math.round(Math.random() * 11);
       if (top3 == -1100) {
-        this.setData({ top3: 0 }),
-        this.setData({ left3: 470 })
+        this.setData({ top3: 0 })
       } else {
         this.setData({ top3: -1100 }),
-        this.setData({ left3: left3sj })
+        this.setData({ sjimg3: sjimgarr[img3sjs] })
       }
+  },
+    alltop: function(){
+    var top1 = this.data.top1;
+    var top2 = this.data.top2;
+    var top3 = this.data.top3;
+    var sjimg1 = this.data.sjimg1;
+    var sjimg2 = this.data.sjimg2;
+    var sjimg3 = this.data.sjimg3;
+    var sjimgarr = this.data.sjimgarr;
+    var img1sjs = this.data.img1sjs= Math.round(Math.random() * 11);
+    var img2sjs = this.data.img2sjs = Math.round(Math.random() * 11);
+    var img3sjs = this.data.img3sjs = Math.round(Math.random() * 11);
+        this.setData({ top1: -1100 }),
+        this.setData({ top2: -1100 }),
+        this.setData({ top3: -1100 })
+        if (top1 == -1100){
+        this.setData({ sjimg1: sjimgarr[img1sjs] }),
+        this.setData({ sjimg2: sjimgarr[img2sjs] }),
+        this.setData({ sjimg3: sjimgarr[img3sjs] })
+        }
+  },
+    allbtm: function () {
+      this.setData({ top1: 0 }),
+      this.setData({ top2: 0 }),
+      this.setData({ top3: 0 })
   }
 })

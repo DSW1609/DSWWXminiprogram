@@ -4,9 +4,17 @@
 <view class = "tx"><image bindtap='te1' bindlongpress="te1ca" src='../images/tx.png' class='tximg'></image></view>
 <view class = "tx2"><image bindtap='te2' src='../images/tx.png' class='tximg'></image></view>
 <view class = "tx3"><image bindtap='te3' src='../images/tx.png' class='tximg'></image></view>
-<view class='dl1-cs' style='top:{{top1}}rpx;left:{{left1}}rpx'><image src='../images/tx.png' class="tximg"></image></view>
-<view class='dl2-cs' style='top:{{top2}}rpx;left:{{left2}}rpx'><image src='../images/tx.png' class="tximg"></image></view>
-<view class='dl3-cs' style='top:{{top3}}rpx;left:{{left3}}rpx'><image src='../images/tx.png' class="tximg"></image></view>
+<view class='dl1-cs' style='top:{{top1}}rpx;'>
+
+<image src='../images/{{sjimg1}}.jpeg' class="tximgt"></image></view>
+
+<view class='dl2-cs' style='top:{{top2}}rpx;'>
+
+<image src='../images/{{sjimg2}}.jpeg' class="tximgt"></image></view>
+
+<view class='dl3-cs' style='top:{{top3}}rpx;'>
+
+<image src='../images/{{sjimg3}}.jpeg' class="tximgt"></image></view>
 </view>
 <swiper
   autoplay="true"
@@ -18,9 +26,9 @@
 <swiper-item><image src="../images/201807311021162143.jpg"/></swiper-item>
 </swiper>
 <image id = "yxbg" src='../images/yxbg.png'></image>
-<view class="jia-ic"></view>
-<view class="jiaz-ic"></view>
-<view class="jia2-ic"></view>
-<view class="yuan-ic"><view class='yuan2-ic'></view></view>
+<view class="jia-ic" bindtap='alltop'></view>
+<view class="jiaz-ic" bindtap='alltop'></view>
+<view class="jia2-ic" bindtap='alltop'></view>
+<view class="yuan-ic" bindtap='allbtm'><view class='yuan2-ic'></view></view>
 </view>
  

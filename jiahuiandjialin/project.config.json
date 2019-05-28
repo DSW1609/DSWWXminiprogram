@@ -21,7 +21,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.7.0",
 	"appid": "wxb8d758a8d9292372",
-	"projectname": "DSW",
+	"projectname": "%E5%93%86%E5%95%A6%E5%92%8C%E4%BD%B3%E6%9E%97",
 	"svr": "server/",
 	"client": "client/",
 	"qcloudRoot": "server/",
