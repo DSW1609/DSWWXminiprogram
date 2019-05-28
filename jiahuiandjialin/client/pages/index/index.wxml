@@ -6,15 +6,15 @@
 <view class = "tx3"><image bindtap='te3' src='../images/tx.png' class='tximg'></image></view>
 <view class='dl1-cs' style='top:{{top1}}rpx;'>
 
-<image src='../images/{{sjimg1}}.jpeg' class="tximgt"></image></view>
+<image src='../images/{{sjimg1}}.jpeg' class="{{tximgtno}}"></image></view>
 
 <view class='dl2-cs' style='top:{{top2}}rpx;'>
 
-<image src='../images/{{sjimg2}}.jpeg' class="tximgt"></image></view>
+<image src='../images/{{sjimg2}}.jpeg' class="{{tximgtno}}"></image></view>
 
 <view class='dl3-cs' style='top:{{top3}}rpx;'>
 
-<image src='../images/{{sjimg3}}.jpeg' class="tximgt"></image></view>
+<image src='../images/{{sjimg3}}.jpeg' class="{{tximgtno}}"></image></view>
 </view>
 <swiper
   autoplay="true"
@@ -26,9 +26,12 @@
 <swiper-item><image src="../images/201807311021162143.jpg"/></swiper-item>
 </swiper>
 <image id = "yxbg" src='../images/yxbg.png'></image>
-<view class="jia-ic" bindtap='alltop'></view>
-<view class="jiaz-ic" bindtap='alltop'></view>
-<view class="jia2-ic" bindtap='alltop'></view>
-<view class="yuan-ic" bindtap='allbtm'><view class='yuan2-ic'></view></view>
+<view class='yxbgtx'><text>点击下面按钮，弹出一张照片，再次点击收回\n点击左侧加号按钮，弹出三张照片\n长按左侧加号按钮，停止图片旋转，放大图片，再次点击恢复\n点击右侧圆形按钮，收回全部图片</text></view>
+<view class="jia-ic" bindtap='alltop' bindlongpress="allstop" ></view>
+<view class="jiaz-ic" bindtap='alltop' bindlongpress="allstop" ></view>
+<view class="jia2-ic" bindtap='alltop' bindlongpress="allstop" ></view>
+<view class="yuan-ic" bindtap='allbtm'>
+    <view class='yuan2-ic' hover-class = 'yuanhover' hover-stay-time = "50"></view>
+</view>
 </view>
  
