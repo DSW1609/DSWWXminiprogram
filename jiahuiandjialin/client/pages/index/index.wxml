@@ -6,24 +6,31 @@
 <view class = "tx3"><image bindtap='te3' src='../images/tx.png' class='tximg'></image></view>
 <view class='dl1-cs' style='top:{{top1}}rpx;'>
 
-<image src='../images/{{sjimg1}}.jpeg' class="{{tximgtno}}"></image></view>
+<image src='../images/{{sjimg1}}.jpeg' class="{{tximgt1no}}"></image>
+<view hover-class = 'xinh' hover-stay-time = "50"><image src='../images/xin.png' id = 'xin' style='display: {{xindis1}};'></image></view>
+</view>
 
 <view class='dl2-cs' style='top:{{top2}}rpx;'>
 
-<image src='../images/{{sjimg2}}.jpeg' class="{{tximgtno}}"></image></view>
+<image src='../images/{{sjimg2}}.jpeg' class="{{tximgt2no}}"></image>
+<view hover-class = 'xinh' hover-stay-time = "50"><image src='../images/xin.png' id = 'xin' style='display: {{xindis2}};'></image></view>
+</view>
 
 <view class='dl3-cs' style='top:{{top3}}rpx;'>
 
-<image src='../images/{{sjimg3}}.jpeg' class="{{tximgtno}}"></image></view>
+<image src='../images/{{sjimg3}}.jpeg' class="{{tximgt3no}}"></image>
+<view hover-class = 'xinh' hover-stay-time = "50"><image src='../images/xin.png' id = 'xin' style='display: {{xindis3}};'></image></view>
+</view>
 </view>
 <swiper
   autoplay="true"
   interval="2000"
   duration="500"
+  circular = "true"
   next-margin="0px">
-<swiper-item><image src="../images/201804251335156152.jpg"/></swiper-item>
-<swiper-item><image src="../images/201806011047033660.jpg"/></swiper-item>
-<swiper-item><image src="../images/201807311021162143.jpg"/></swiper-item>
+<swiper-item><image src="../images/201804251335156152.jpg" id = 'swimg'/></swiper-item>
+<swiper-item><image src="../images/201806011047033660.jpg" id = 'swimg'/></swiper-item>
+<swiper-item><image src="../images/201807311021162143.jpg" id = 'swimg'/></swiper-item>
 </swiper>
 <image id = "yxbg" src='../images/yxbg.png'></image>
 <view class='yxbgtx'><text>点击下面按钮，弹出一张照片，再次点击收回\n点击左侧加号按钮，弹出三张照片\n长按左侧加号按钮，停止图片旋转，放大图片，再次点击恢复\n点击右侧圆形按钮，收回全部图片</text></view>

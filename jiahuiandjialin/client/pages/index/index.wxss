@@ -24,9 +24,11 @@
   transition:all 1.2s;
 }
 .dl2-cs{
+  transition:all 1.25s;
   left: 235rpx;
 }
 .dl3-cs{
+  transition:all 1.3s;
   left: 470rpx;
 }
 .btmbg{
@@ -55,13 +57,14 @@
   animation: xuanzhuan 2s linear infinite;
 }
 .tximgt{
+  position: fixed;
    width: 130rpx;
    height: 130rpx; 
    border-radius: 130rpx;
    animation: xuanzhuan 3s linear infinite;
    box-shadow: 0px 0px 15px #fff;
 }
-.tximgtno{
+.tximgt1no,.tximgt2no,.tximgt3no{
   position: relative;
   float: left;
   top:-10rpx;
@@ -70,6 +73,19 @@
    height: 200rpx; 
    border-radius: 200rpx;
    box-shadow: 0px 0px 15px #fff;
+}
+#xin{
+  position: relative;
+  float: left;
+   width: 70rpx;
+   height: 70rpx; 
+   left: 28rpx;
+   z-index: 999;
+}
+.xinh{
+  opacity: 0.7;
+  transform: scale(1.1,1.1);
+  transition: all 0.2s;
 }
 @keyframes xuanzhuan{
   from{
@@ -88,9 +104,9 @@ swiper{
   z-index: 998;
   box-shadow: 2rpx 2rpx 10rpx #333;
 }
-swiper-item{
-  width:500rpx;
-  height:312rpx; 
+#swimg{
+  width:600rpx;
+  height:360rpx;
   border-radius: 30rpx;
 }
 .fashe{
@@ -152,12 +168,6 @@ swiper-item{
   margin-left: 30rpx;
   margin-top: 30rpx;
   background: red;
-}
-.yuanichover{
-  width: 116rpx;
-  height: 116rpx;
-  margin-left: 437rpx;
-  margin-top: 382rpx;
 }
 .yuanhover{
   background: black;
