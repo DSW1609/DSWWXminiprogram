@@ -35,6 +35,7 @@ Page({
         this.setData({ top1: -1100 }),
         this.setData({ sjimg1: sjimgarr[img1sjs] })
       }
+
   },
     te2: function () {
       var top2 = this.data.top2;
@@ -87,7 +88,10 @@ Page({
         if (top1 == -1100) {
         this.setData({ tximgt1no: 'tximgt' }),
           this.setData({ tximgt2no: 'tximgt' }),
-          this.setData({ tximgt3no: 'tximgt' })
+          this.setData({ tximgt3no: 'tximgt' }),
+          this.setData({ xindis1: 'none' }),
+          this.setData({ xindis2: 'none' }),
+          this.setData({ xindis3: 'none' })
       }
   },
     allbtm: function () {
@@ -103,12 +107,16 @@ Page({
   },
     allstop:function(){
       var top1 = this.data.top1;
+      var top2 = this.data.top2;
+      var top3 = this.data.top3;
       if (top1 == -1100){
         this.setData({tximgt1no:'tximgt1no'}),
-          this.setData({ tximgt2no: 'tximgt2no' }),
-          this.setData({ tximgt3no: 'tximgt3no' }),
-          this.setData({ xindis1: 'block' }),
-          this.setData({ xindis2: 'block' }),
+          this.setData({ xindis1: 'block' })
+      }  if (top2 == -1100){
+        this.setData({ tximgt2no: 'tximgt2no' }),
+          this.setData({ xindis2: 'block' })
+      }  if (top3 == -1100) {
+        this.setData({ tximgt3no: 'tximgt3no' }),
           this.setData({ xindis3: 'block' })
       }
   }
