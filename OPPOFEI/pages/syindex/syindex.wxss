@@ -3,47 +3,206 @@ swiper{
   height: 350rpx;
   color: white;
 }
-#swit1,#swit2,#swit3,#swit4,#swit5,#swit6{
-  position: absolute;
-  width: 900rpx;
+swiper-item{
+  width: 100%;
   height: 350rpx;
-  margin-left: -150rpx;
 }
-#swit-te{
+#swit1-bgimg{
+  position: absolute;
+  width: 1300rpx;
+  height: 420rpx;
+  margin-top: -60rpx;
+  margin-left: -335rpx;
+}
+#swit1-text{
   position: relative;
-  width: 320rpx;
-  height: 300rpx;
-  top: 80rpx;
-  left: 235rpx;
+  width: 420rpx;
+  height: auto;
+  left: 300rpx;
+  top:70rpx;
   text-align: center;
 }
-#swit-te1{
-  position:absolute;
-  width: 320rpx;
-  margin-top: 30rpx;
-  font-size: 38rpx;
+#swit1-title{
+  position: relative;
+  font-size: 42rpx;
+}
+#swit1-smalltitle{
+  position: relative;
+  font-size: 19rpx;
+  top:-15rpx;
+  letter-spacing: 0.1rpx;
+}
+#swit1-price{
+  position: relative;
+  font-size: 27rpx;
+  top:5rpx;
+}
+#swit1-qi{
+  font-size: 15rpx;
+}
+#swit1-yuyue{
+  position: relative;
+  font-size: 18rpx;
+  padding: 15rpx 35rpx;
+  background: white;
+  border-radius: 40rpx;
+  top:20rpx;
+  font-weight: bold;
+  color: rgb(197, 56, 32);
+}
+#swit2-bgimg{
+  position: absolute;
+  width: 1300rpx;
+  height: 420rpx;
+  margin-top: -50rpx;
+  margin-left: -335rpx;
+}
+#swit2-text{
+  position: relative;
+  width: 420rpx;
+  height: auto;
+  left: 300rpx;
+  top:70rpx;
+  color: black;
+  text-align: center;
+}
+#swit2-title{
+  position: relative;
+  font-size: 42rpx;
+}
+#swit2-smalltitle{
+  position: relative;
+  font-size: 19rpx;
+  top:-15rpx;
+  letter-spacing: 0.1rpx;
+}
+#swit2-price{
+  position: relative;
+  font-size: 27rpx;
+  top:5rpx;
+}
+#swit2-yuyue{
+  position: relative;
+  font-size: 18rpx;
+  padding: 15rpx 35rpx;
+  background: rgb(5, 181, 112);
+  border-radius: 40rpx;
+  top:20rpx;
+  color: white;
   font-weight: bold;
 }
-#swit-te2{
-  position:absolute;
-  width: 320rpx;
-  margin-top: 90rpx;
-  font-size: 20rpx;
-}
-#swit-teyd{
+#swit3-bgimg{
   position: absolute;
-  width: 320rpx;
-  height: auto;
-  margin-top: 135rpx;
-  font-size: 20rpx;
+  width: 1100rpx;
+  height: 500rpx;
+  margin-top: -100rpx;
+  margin-left: -170rpx;
 }
-#yda{
-  width: auto;
+#swit3-text{
+  position: relative;
+  width: 420rpx;
   height: auto;
-  padding: 5rpx 15rpx;
+  left: 300rpx;
+  top:85rpx;
+  text-align: center;
+}
+#swit3-title{
+  position: relative;
+  font-size: 42rpx;
+}
+#swit3-smalltitle{
+  position: relative;
+  font-size: 19rpx;
+  top:-10rpx;
+  letter-spacing: 0.1rpx;
+}
+#swit3-yuyue{
+  position: relative;
+  font-size: 18rpx;
+  padding: 15rpx 35rpx;
   background: white;
-  border-radius: 20rpx;
-  color: black
+  border-radius: 40rpx;
+  top:20rpx;
+  color:black;
+  font-weight: bold;
+}
+#swit4-bgimg{
+  position: absolute;
+  width: 1300rpx;
+  height: 500rpx;
+  margin-top: -80rpx;
+  margin-left: -300rpx;
+}
+#swit4-text{
+  position: relative;
+  width: 420rpx;
+  height: auto;
+  left: 300rpx;
+  top:70rpx;
+  color: black;
+  text-align: center;
+}
+#swit4-title{
+  position: relative;
+  font-size: 42rpx;
+  letter-spacing: 1rpx;
+}
+#swit4-smalltitle{
+  position: relative;
+  font-size: 20rpx;
+  top:-10rpx;
+  letter-spacing: 0.1rpx;
+}
+#swit4-yuyue{
+  position: relative;
+  font-size: 18rpx;
+  padding: 15rpx 35rpx;
+  background: rgb(5, 181, 112);
+  border-radius: 40rpx;
+  top:20rpx;
+  color:white;
+  font-weight: bold;
+}
+#swit5-bgimg{
+  position: absolute;
+  width: 850rpx;
+  height: 350rpx;
+}
+#swit5-text{
+  position: relative;
+  width: 420rpx;
+  height: auto;
+  top:70rpx;
+  color: white;
+  left: 300rpx;
+  text-align: center;
+}
+#swit5-title{
+  position: relative;
+  font-size: 42rpx;
+}
+#rzlogo{
+  position: relative;
+  width: 20rpx;
+  height: 20rpx;
+  top:-12rpx;
+}
+#swit5-smalltitle{
+  position: relative;
+  font-size: 19rpx;
+  top:-15rpx;
+  color: rgb(191, 190, 191);
+  letter-spacing: 0.1rpx;
+}
+#swit5-yuyue{
+  position: relative;
+  font-size: 18rpx;
+  padding: 15rpx 35rpx;
+  border-radius: 40rpx;
+  top:20rpx;
+  background: white;
+  color: black;
+  font-weight: bold;
 }
 #swbtm{
   position: relative;
@@ -61,49 +220,25 @@ swiper{
   height: 250rpx;
   top: 40rpx;
 }
-.ic1{
+.ic{
   position:relative;
-  width: 175rpx;
+  width: 170rpx;
   height: 190rpx;
-  float: left;
   left: 25rpx;
   top:30rpx;
+  display: inline-block;
   text-align: center;
 }
-#ic1-t{
-  position:absolute;
-  width: 175rpx;
+#ic-t{
+  position:relative;
   font-size: 30rpx;
-  margin-top: 100rpx;
-  margin-left: -55rpx;
-}
-#ic2-t{
-  position:absolute;
-  width: 175rpx;
-  font-size: 30rpx;
-  margin-top: 100rpx;
-  margin-left: -40rpx;
-}
-#ic3-t{
-  position:absolute;
-  width: 175rpx;
-  font-size: 30rpx;
-  margin-top: 100rpx;
-  margin-left: -40rpx;
-}
-#ic4-t{
-  position:absolute;
-  width: 175rpx;
-  font-size: 30rpx;
-  margin-top: 100rpx;
-  margin-left: -40rpx;
 }
 .ic1img{
-  width: 65rpx;
+  width: 80rpx;
   height: 80rpx;
 }
 .ic2img{
-  width: 90rpx;
+  width: 95rpx;
   height: 80rpx;
 }
 .ic3img{
@@ -117,7 +252,7 @@ swiper{
 #btmbody{
   position: relative;
   width: 750rpx;
-  height: 2000rpx;
+  height: 3000rpx;
   background: rgb(5, 3, 11)
 }
 .btmimg{
@@ -132,30 +267,61 @@ swiper{
 }
 #btmimg{
   position: relative;
-  width: 420rpx;
+  width: 700rpx;
   height: 380rpx;
+  transition: all 1s;
   border-radius: 20rpx;
 }
 #btmte{
   position:absolute;
-  width: 350rpx;
+  width: 380rpx;
   height: 100rpx;
-  top:80rpx;
-  left: 380rpx;
+  top:55rpx;
+  left: 335rpx;
   line-height: 45rpx;
+  font-size: 32rpx;
   text-align: center;
-  font-size: 30rpx;
+}
+#color{
+  position: relative;
+  top:-40rpx;
+}
+#cheng,#linggan,#lv,#zi{
+  position: relative;
+  width: 45rpx;
+  height: 45rpx;
+  top:55rpx;
+  margin: 20rpx;
+  border-radius: 50rpx;
+  display: inline-block;
+  transition: all 0.3s;
+}
+#cheng{
+  background-color: rgb(241, 86, 47);
+  box-shadow: 1rpx 1rpx 5rpx rgb(241, 86, 47);
+}
+#linggan{
+  background-color: rgb(16, 46, 109);
+  box-shadow: 1rpx 1rpx 5rpx rgb(16, 46, 109);
+}
+#lv{
+  background-color: rgb(87, 175, 177);
+  box-shadow: 1rpx 1rpx 5rpx rgb(87, 175, 177);
+}
+#zi{
+  background-color: rgb(130, 71, 169);
+  box-shadow: 1rpx 1rpx 5rpx rgb(130, 71, 169);
 }
 #yang{
   position: relative;
-  top:70rpx;
+  top:15rpx;
 }
 #ljgm{
   position: relative;
-  top:90rpx;
   color: white;
   padding: 5px 15px;
   font-size: 25rpx;
+  top:30rpx;
   border-radius: 50rpx;
   background: rgb(5, 181, 112)
 }
@@ -233,15 +399,93 @@ swiper{
   top:80rpx;
   background: white;
 }
-.k3img{
-  position: relative;
-  width: 100%;
-  height: 300rpx;
-}
 #k3img{
   position: relative;
   width: 500rpx;
   height: 480rpx;
-  top:120rpx;
+  top:130rpx;
   left: -100rpx;
+}
+#xinpinte{
+  position: relative;
+  width: 220rpx;
+  height: auto;
+  top:590rpx;
+  text-align: center;
+  letter-spacing: 7rpx;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.xinpin1{
+  position: relative;
+  width: 700rpx;
+  height: 320rpx;
+  margin: 0 auto;
+  top:610rpx;
+  border-radius: 20rpx;
+  background: white;
+}
+#xinpin1{
+  position:absolute;
+  width: 350rpx;
+  height: 320rpx;
+}
+.xinpinte{
+  position: relative;
+  width: 350rpx;
+  height: 220rpx;
+  color: black;
+  text-align: center;
+  left: 350rpx;
+  top:50rpx;
+
+}
+#xpk3{
+  position: relative;
+    font-size: 40rpx;
+    font-weight: bold;
+}
+#xpk3small{
+  position: relative;
+    font-size: 25rpx;
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+    letter-spacing: 2rpx;
+}
+#xpk3price{
+  position: relative;
+    font-size: 30rpx;
+    top:20rpx;
+    font-weight: bold;
+    color: rgb(44, 56, 94)
+}
+#xpk3qi{
+  font-size: 15rpx;
+}
+#xp3yd{
+  position: relative;
+  padding: 8rpx 30rpx;
+  background: rgb(44, 56, 94);
+  color: white;
+  font-size: 23rpx;
+  border-radius: 30rpx;
+  top:30rpx;
+}
+.xinpin2{
+  position: relative;
+  width: 700rpx;
+  height: 320rpx;
+  margin: 0 auto;
+  top:650rpx;
+  border-radius: 20rpx;
+  background: white;
+}
+.xinpin3{
+  position: relative;
+  width: 700rpx;
+  height: 320rpx;
+  margin: 0 auto;
+  top:700rpx;
+  border-radius: 20rpx;
+  background: white;
 }

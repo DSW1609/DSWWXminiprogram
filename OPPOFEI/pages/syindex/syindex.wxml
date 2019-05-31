@@ -5,71 +5,81 @@
   indicator-dots = "true"
   next-margin="0px">
 <swiper-item>
-<image src = "../images/201904100304015cad9c69e00ec.png" id = "swit1"></image>
-<view id = "swit-te"  style = "color:black">
-<span id = "swit-te1">Reno 10 倍变焦版</span>
-<span id = "swit-te2">新品开售，享六期免息</span>
-<span id = "swit-teyd"><a id = "yda"  style = "background:rgb(5, 181, 112);color:white">立即购买</a></span>
+<image src = "../images/201905301005405cef46a4304ea.jpg" id = "swit1-bgimg"></image>
+<view id = "swit1-text">
+<text id = "swit1-title">OPPO Reno 新"橙"员\n</text>
+<text id = "swit1-smalltitle">4800 万像素|光感屏幕指纹|VOOC 闪充 3.0\n</text>
+<text id = "swit1-price">🐏3299 <text id = "swit1-qi">起</text>\n</text>
+<text id = "swit1-yuyue">立即预约</text>
 </view>
 </swiper-item>
 <swiper-item>
-<image src = "../images/201905230205585ce63f8aa7c96.jpg" id = "swit6"></image>
-<view id = "swit-te">
-<span id = "swit-te1">闪充家族 高能来袭</span>
-<span id = "swit-te2">最高立减30元，6月1日0点正式开售</span>
-<span id = "swit-teyd"><a id = "yda">全款预定</a></span>
+<image src = "../images/201905170905115cde122727eba.jpg " id = "swit2-bgimg"></image>
+<view id = "swit2-text">
+<text id = "swit2-title">A9x 新品开售\n</text>
+<text id = "swit2-smalltitle">4800万超清像素|VOOC 3.0|6G+128G\n</text>
+<text id = "swit2-price">🐏1999 <text id = "swi1-qi">起</text>\n</text>
+<text id = "swit2-yuyue">立即购买</text>
 </view>
 </swiper-item>
 <swiper-item>
-<image src = "../images/201905211105315ce3741f42b73.jpg" id = "swit5"></image>
-<view id = "swit-te">
-<span id = "swit-te1">K3 硬核少年</span>
-<span id = "swit-te2">骁龙710\t\t升降全面屏</span>
-<span id = "swit-teyd"><a id = "yda">立即预定</a></span>
+<image src = "../images/ofreshbg.jpg" id = "swit5-bgimg"></image>
+<view id = "swit5-text">
+<text id = "swit5-title">O-Fresh 立体声耳机\n</text>
+<image src='../images/hiresimg.jpg ' id = 'rzlogo'></image>
+<text id = "swit5-smalltitle"> Hi-Res 认证高解析音质|防缠绕齿纹线\n</text>
+<text id = "swit2-price">🐏129\n</text>
+<text id = "swit5-yuyue">立即购买</text>
 </view>
 </swiper-item>
 <swiper-item>
-<image src = "../images/201905170905115cde122727eba.jpg" id = "swit3"></image>
-<view id = "swit-te"  style = "color:black">
-<span id = "swit-te1">A9x新品开售</span>
-<span id = "swit-te2">6G+128G，4800万超清像素</span>
-<span id = "swit-teyd"><a id = "yda"  style = "background:rgb(5, 181, 112);color:white">立即购买</a></span>
+<image src = "../images/201905230205585ce63f8aa7c96.jpg " id = "swit3-bgimg"></image>
+<view id = "swit3-text">
+<text id = "swit3-title">闪充家族 高能来袭\n</text>
+<text id = "swit3-smalltitle">-最高立减30元，6月1日0点正式开售-\n</text>
+<text id = "swit3-yuyue">全款预订</text>
 </view>
 </swiper-item>
 <swiper-item>
-<image src = "../images/201904110704035caf1e6fbf9d0.jpg" id = "swit2"></image>
-<view id = "swit-te"  style = "color:black">
-<span id = "swit-te1">以旧换新</span>
-<span id = "swit-te2">让闲置回归价值</span>
-<span id = "swit-teyd"><a id = "yda"  style = "background:rgb(5, 181, 112);color:white">立即了解</a></span>
+<image src = "../images/201904110704035caf1e6fbf9d0.jpg " id = "swit4-bgimg"></image>
+<view id = "swit4-text">
+<text id = "swit4-title">以旧换新\n</text>
+<text id = "swit4-smalltitle">让闲置回归价值\n</text>
+<text id = "swit4-yuyue">立即了解</text>
 </view>
 </swiper-item>
 </swiper>
-<view id = "swbtm"><span>官方正品 | 全场包邮 | 1年全国联保 | 七天退货30天换货</span></view>
+<view id = "swbtm"><text>官方正品 | 全场包邮 | 1年全国联保 | 七天退货30天换货</text></view>
 <view id = "ic-4">
-    <view class = "ic1">
-    <span id = "ic1-t">K3预定</span>
+    <view class = "ic">
     <image src='../images/yudingic.png 'class = "ic1img"></image>
+    <text id = "ic-t">\nK3预定</text>
     </view>
-    <view class = "ic1">
-    <span id = "ic2-t">闪充家族</span>
+    <view class = "ic">
     <image src='../images/ic2.png 'class = "ic2img"></image>
+    <text id = "ic-t">\n闪充家族</text>
     </view>
-    <view class = "ic1">
-    <span id = "ic3-t">以旧换新</span>
+    <view class = "ic">
     <image src='../images/ic3.png 'class = "ic3img"></image>
+     <text id = "ic-t">\n以旧换新</text>
     </view>
-    <view class = "ic1">
-    <span id = "ic4-t">新人礼</span>
+    <view class = "ic">
     <image src='../images/ic4.png 'class = "ic4img"></image>
+    <text id = "ic-t">\n补给站</text>
     </view>
 </view>
 <view id = "btmbody">
   <view class='btmimg'>
-  <image id = "btmimg" src='../images/btmimg.png'></image>
-  <view id = "btmte"><text>OPPO Reno\n8G+256G，全景屏。\n</text>
-  <text id = "yang">🐏3599\n</text>
-  <text id = "ljgm">立即购买</text>
+  <image id = "btmimg" src='../images/reno{{color}}.jpg '></image>
+  <view id = "btmte"><text>OPPO Reno\n{{renote}}\n</text>
+  <view id = 'color'>
+      <view id = 'cheng' bindtap='cheng' style='transform: scale({{suofang1}})'></view>
+      <view id = 'linggan' bindtap='linggan' style='transform: scale({{suofang2}})'></view>
+      <view id = 'lv' bindtap='lv' style='transform: scale({{suofang3}})'></view>
+      <view id = 'zi' bindtap='zi' style='transform: scale({{suofang4}})'></view>
+  </view>
+  <text id = "yang">🐏{{yang}}\n</text>
+  <text id = "ljgm">立即{{goumai}}</text>
   </view>
   </view>
   <view id = "k3"><text id = "k3lx">K3 高能来袭</text></view>
@@ -79,6 +89,36 @@
   <text id = "k3lx-btm2"><text id = "k3lx-le1">8G+128G版</text>\n¥1899</text>
   <text id = "zo-fresh">限时赠O-Fresh耳机\n</text>
   <text id = "qkyd">全款预订</text>
-  <view class = "k3img"><image src='../images/k3img.png ' id = "k3img"></image></view>
+  <image src='../images/k3img.png ' id = "k3img"></image>
+  </view>
+  <view id = 'xinpinte'>
+  <text style='color:white;font-size:37rpx'>-热销新品-\n</text>
+  <text style='color:white;font-size:20rpx'>大电池·大内存</text>
+  </view>
+  <view class = 'xinpin1'><image src='../images/xinpin1.png' id = 'xinpin1'></image>
+  <view class='xinpinte'>
+  <text id= 'xpk3'>OPPO K3\n</text>
+  <text id= 'xpk3small'>骁龙710|升降摄像头\n</text>
+    <text id= 'xpk3price'>🐏1599<text id = "xpk3qi">起\n</text></text>
+    <text id = 'xp3yd'>全款预订</text>
+  </view>
+  </view>
+  <view class = 'xinpin2'>
+  <image src='../images/xinpin2.png' id = 'xinpin1'></image>
+  <view class='xinpinte'>
+  <text id= 'xpk3'>OPPO A9\n</text>
+  <text id= 'xpk3small'>大内存|长续航\n</text>
+    <text id= 'xpk3price'>🐏1399<text id = "xpk3qi">起\n</text></text>
+    <text id = 'xp3yd'>立即购买</text>
+  </view>
+  </view>
+  <view class = 'xinpin3'>
+   <image src='../images/xinpin3.png' id = 'xinpin1'></image>
+  <view class='xinpinte'>
+  <text id= 'xpk3'>OPPO A9x\n</text>
+  <text id= 'xpk3small'>4800 万超清像素|VOOC 3.0\n</text>
+    <text id= 'xpk3price'>🐏1999<text id = "xpk3qi">起\n</text></text>
+    <text id = 'xp3yd'>立即购买</text>
+  </view>
   </view>
 </view>

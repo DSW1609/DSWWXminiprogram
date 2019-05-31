@@ -1,12 +1,35 @@
 {
   "pages": [
-    "pages/syindex/syindex"
+    "pages/syindex/syindex",
+    "pages/shop/shop",
+    "pages/dingdan/dingdan"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "white",
     "navigationBarTitleText": "OPPO非官方商城",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/syindex/syindex",
+      "text": "Reno来了",
+      "iconPath": "/pages/images/shouji.png",
+      "selectedIconPath": "/pages/images/shouji.png"
+    },
+    {
+    "pagePath": "pages/shop/shop",
+    "text": "购物车",
+    "iconPath": "/pages/images/gouwuche.png",
+    "selectedIconPath": "/pages/images/gouwuche.png"
+    },
+    {
+      "pagePath": "pages/dingdan/dingdan",
+      "text": "我的订单",
+      "iconPath": "/pages/images/dingdan.png",
+      "selectedIconPath": "/pages/images/dingdan.png"
+    }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
