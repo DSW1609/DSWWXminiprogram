@@ -82,14 +82,14 @@
   <text id = "ljgm">立即{{goumai}}</text>
   </view>
   </view>
-  <view id = "k3"><text id = "k3lx">K3 高能来袭</text></view>
+  <!-- <view id = "k3"><text id = "k3lx">K3 高能来袭</text></view>
   <view id = "k3-btm1">
   <view id = "k3xian"></view>
   <text id = "k3lx-btm1"><text id = "k3lx-le1">6G+64G版</text>\n¥1599</text>
   <text id = "k3lx-btm2"><text id = "k3lx-le1">8G+128G版</text>\n¥1899</text>
   <text id = "zo-fresh">限时赠O-Fresh耳机\n</text>
   <text id = "qkyd">全款预订</text>
-  <image src='../images/k3img.png ' id = "k3img"></image>
+  <image src='../images/k3image.gif.webp' id = "k3img"></image>
   </view>
   <view id = 'xinpinte'>
   <text style='color:white;font-size:37rpx'>-热销新品-\n</text>
@@ -120,5 +120,93 @@
     <text id= 'xpk3price'>🐏1999<text id = "xpk3qi">起\n</text></text>
     <text id = 'xp3yd'>立即购买</text>
   </view>
-  </view>
+  </view> -->
+  <!--爆品甄选-->
+    <view class='bpzx'>
+    <text class='bpzxte'>✨ 爆品甄选 ✨</text>
+    <view class='bpzximg'><image src='../images/findxbg.png ' id = 'bpzximg'></image><text id= 'bpfindxte'>Find X 未来旗舰\n<text id = 'findxtesmall'>限时直降 <text style='color:yellow'>1000</text> 元，享 6 期免息</text></text></view>
+    </view>
+    <view class='bpzx1'>
+
+    <view class='bpzx1-1'><image src='../images/bpreno10.png' id = 'bpzx1-1img'></image>
+    <view class='bpzx1-1te'>
+    <text id = 'bpzxtitle'>Reno 10 倍变焦版\n</text>
+    <text id = 'bpzxsmall'>赠碎屏险 1 年\n</text>
+    <text id = 'bpzxyang'>🐏 3999</text>
+    </view>
+    <text id = 'bpzxmx'>12期免息</text>
+    </view>
+
+    <view class='bpzx1-2'>
+    <image src='../images/bprenoqj.png' id = 'bpzx1-1img'></image>
+    <view class='bpzx1-1te'>
+    <text id = 'bpzxtitle'>Reno 全景屏\n</text>
+    <text id = 'bpzxsmall'>赠碎屏险 1 年\n</text>
+    <text id = 'bpzxyang'>🐏 2999</text>
+    </view>
+    <text id = 'bpzxmx'>6期免息</text>
+    </view>
+
+    <view class='bpzx2-1'><image src='../images/bpa9.png' id = 'bpzx1-1img'></image>
+    <view class='bpzx1-1te'>
+    <text id = 'bpzxtitle'>A9 4020mAh大电池\n</text>
+    <text id = 'bpzxsmall'>赠加湿器\n</text>
+    <text id = 'bpzxyang'>🐏 1399</text>
+    </view>
+    <text id = 'bpzxmx'>3期免息</text>
+    </view>
+
+    <view class='bpzx2-2'>
+    <image src='../images/bpa9x.png' id = 'bpzx1-1img'></image>
+    <view class='bpzx1-1te'>
+    <text id = 'bpzxtitle'>A9x 4800万像素\n</text>
+    <text id = 'bpzxsmall'>直降300元\n</text>
+    <text id = 'bpzxyang'>🐏 1999</text>
+    </view>
+    <text id = 'bpzxmx'>3期免息</text>
+    </view>
+
+    <view class='bpzx3-1'><image src='../images/bpa5.png' id = 'bpzx1-1img'></image>
+    <view class='bpzx1-1te'>
+    <text id = 'bpzxtitle'>A5 4230mAh大电池\n</text>
+    <text id = 'bpzxsmall'>最高直降200元\n</text>
+    <text id = 'bpzxyang'>🐏 999 </text>
+    <text id = 'bpzxyanghd'>🐏1300</text>
+    </view>
+    <text id = 'bpzxmx'>3期免息</text>
+    </view>
+
+    <view class='bpzx3-2'>
+    <image src='../images/bpk1.png' id = 'bpzx1-1img'></image>
+    <view class='bpzx1-1te'>
+    <text id = 'bpzxtitle'>k1 年度爆品\n</text>
+    <text id = 'bpzxsmall'>限时直降300元\n</text>
+    <text id = 'bpzxyang'>🐏 1199 </text>
+    <text id = 'bpzxyanghd'>🐏1399</text>
+    </view>
+    </view>
+    
+    <view class='bpzx4-1'><image src='../images/bpr17.png' id = 'bpzx1-1img'></image>
+    <view class='bpzx1-1te'>
+    <text id = 'bpzxtitle'>R17 幻色渐变\n</text>
+    <text id = 'bpzxsmall'>最高直降200元\n</text>
+    <text id = 'bpzxyang'>🐏 2199 </text>
+    <text id = 'bpzxyanghd'>🐏2599</text>
+    </view>
+    <text id = 'bpzxmx'>6期免息</text>
+    </view>
+
+    <view class='bpzx4-2'>
+    <image src='../images/bpr17pro.png' id = 'bpzx1-1img'></image>
+    <view class='bpzx1-1te'>
+    <text id = 'bpzxtitle'>R17 Pro 超强夜拍\n</text>
+    <text id = 'bpzxsmall'>限时直降500元\n</text>
+    <text id = 'bpzxyang'>🐏 2699 </text>
+    <text id = 'bpzxyanghd'>🐏3299</text>
+    </view>
+    <text id = 'bpzxmx'>6期免息</text>
+    </view>
+
+    </view><!--bpzx结束-->
+    
 </view>

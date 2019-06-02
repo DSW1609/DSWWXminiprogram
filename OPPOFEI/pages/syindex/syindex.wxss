@@ -252,8 +252,8 @@ swiper-item{
 #btmbody{
   position: relative;
   width: 750rpx;
-  height: 3000rpx;
-  background: rgb(5, 3, 11)
+  height: auto;
+  background:black;
 }
 .btmimg{
   position: relative;
@@ -488,4 +488,124 @@ swiper-item{
   top:700rpx;
   border-radius: 20rpx;
   background: white;
+}
+.bpzx{
+  position: relative;
+  width: 700rpx;
+  height:420rpx;
+  margin: 0 auto;
+  top:60rpx;
+  text-align: center;
+}
+.bpzxte{
+  position: relative;
+  text-align: center;
+  background: linear-gradient(to right, rgb(91, 195, 246), rgb(50, 139, 228)); 
+  -webkit-background-clip: text;        
+  color: transparent;
+  font-weight: bold;
+  font-size: 40rpx;
+  letter-spacing: 5rpx;
+}
+.bpzximg{
+  position: relative;
+  width: 700rpx;
+  height: 250rpx;
+  top:30rpx;
+  border-radius: 20rpx;
+}
+#bpzximg{
+  position: relative;
+  width: 700rpx;
+  height: 250rpx;
+  border-radius: 20rpx;
+}
+#bpfindxte{
+  position:absolute;
+  width: auto;
+  height: 100rpx;
+  margin-left: -370rpx;
+  font-size: 40rpx;
+  line-height: 45rpx;
+  letter-spacing: 3rpx;
+  color: white;
+  margin-top: 75rpx;
+  text-align: center;
+  font-weight: bold;
+}
+#findxtesmall{
+  position: relative;
+  font-size: 23rpx;
+  letter-spacing: 0.2rpx;
+}
+.bpzx1{
+  position: relative;
+  width: 700rpx;
+  height: auto;
+  margin: 0 auto;
+}
+.bpzx1-1,.bpzx1-2,.bpzx2-1,.bpzx2-2,.bpzx3-1,.bpzx3-2,.bpzx4-1,.bpzx4-2{
+  position: relative;
+  width: 340rpx;
+  height: 420rpx;
+  display: inline-block;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+  background: white;
+  padding: 0rpx;
+}
+.bpzx1-1{
+  border-top-left-radius: 20rpx;
+}
+.bpzx1-2{
+  border-top-right-radius: 20rpx;
+}
+.bpzx4-1{
+  border-bottom-left-radius: 20rpx;
+}
+.bpzx4-2{
+  border-bottom-right-radius: 20rpx;
+}
+#bpzx1-1img{
+  position: absolute;
+  width: 220rpx;
+  height: 220rpx;
+  margin-top: 45rpx;
+  margin-left: 60rpx;
+}
+.bpzx1-1te{
+  position: absolute;
+  width: 300rpx;
+  height: auto;
+  margin-top: 265rpx;
+  text-align: center;
+  line-height: 40rpx;
+  margin-left: 20rpx;
+}
+#bpzxtitle{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+#bpzxsmall{
+  color: rgb(132, 132, 132);
+  font-size: 25rpx;
+}
+#bpzxyang{
+  font-size: 30rpx;
+  font-weight: 500;
+  color: rgb(241, 86, 47)
+}
+#bpzxyanghd{
+  font-size: 25rpx;
+  color: rgb(132, 132, 132);
+  text-decoration: line-through;
+}
+#bpzxmx{
+  position: absolute;
+  font-size: 20rpx;
+  margin: 10rpx;
+  padding: 8rpx;
+  background: rgb(254, 237, 235);
+  color: rgb(241, 86, 47)
+
 }
