@@ -5,9 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    yc1: false,
+    yc2: true,
+    yc3: true
   },
-
+  jl: function (e) {
+    this.setData({
+      yc1: !this.data.yc1
+    })
+  },
+  jh: function (e) {
+    this.setData({
+      yc2: !this.data.yc2
+    })
+  },
+  gl: function (e) {
+    this.setData({
+      yc3: !this.data.yc3
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

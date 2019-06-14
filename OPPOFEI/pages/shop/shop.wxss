@@ -1,0 +1,55 @@
+.body{
+  position: relative;
+  width: 700rpx;
+  height: 1000rpx;
+  background: yellow;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.left-nav{
+  position: absolute;
+  width: 200rpx;
+  height: 600rpx;
+}
+.cs1{
+  position: relative;
+  width: 250rpx;
+  height:100rpx;
+  font-size:40rpx;
+  margin-top:20rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background: pink;
+}
+.right-yc{
+  position: absolute;
+  left: 300rpx;
+  top:100rpx;
+  width: 350rpx;
+  height: 300rpx;
+  background: white;
+  border-radius: 20rpx;
+  box-shadow: 2rpx 2rpx 5rpx;
+}
+.yc1{
+  position: absolute;
+  width: 350rpx;
+  height: 50rpx;
+  top:100rpx;
+  transition: all 0.5s steps(60);
+  font-size: 40rpx;
+}
+.cs{
+  position: relative;
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: red;
+}
+#csimg{
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  top: 10rpx;
+  padding-left: 20rpx;
+  }

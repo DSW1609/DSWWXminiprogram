@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/syindex/syindex",
     "pages/shop/shop",
+    "pages/syindex/syindex",
     "pages/dingdan/dingdan"
   ],
   "window": {

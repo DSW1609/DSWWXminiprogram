@@ -1,0 +1,25 @@
+<view class='body'>
+    <view class='left-nav'>
+        <view class='cs1' bindtap='jl'>点我显示佳林</view>
+        <view class='cs1' bindtap='jh'>点我显示嘉辉</view>
+        <view class='cs1' bindtap='gl'>点我显示狗林</view>
+        <view class='cs1'>点我显示兔兔</view>
+        <view class='cs1'>点我显示林林</view>
+        <view class='cs1'>点我显示王王</view>
+    </view>
+    <view class='right-yc'>
+        <view class='yc1' hidden="{{yc1}}">
+        我是佳林隐藏内容
+        </view>
+        <view class='yc1' hidden="{{yc2}}">
+        我是嘉辉隐藏内容
+        </view>
+        <view class='yc1' hidden="{{yc3}}">
+        我是狗林隐藏内容
+        </view>
+    </view>
+    <view class='cs'>
+        <text>我来测试文字能不能和图片在一行</text>
+        <image id = 'csimg' src='/pages/images/201905290805235cee81b39734b.jpg '></image>
+    </view>
+</view>
