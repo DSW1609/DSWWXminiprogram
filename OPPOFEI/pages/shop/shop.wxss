@@ -24,18 +24,17 @@
 .right-yc{
   position: absolute;
   left: 300rpx;
-  top:100rpx;
   width: 350rpx;
   height: 300rpx;
-  background: white;
-  border-radius: 20rpx;
-  box-shadow: 2rpx 2rpx 5rpx;
 }
 .yc1{
-  position: absolute;
-  width: 350rpx;
-  height: 50rpx;
-  top:100rpx;
+  position:relative;
+  width: 120rpx;
+  height: 60rpx;
+  margin: 20rpx;
+  border-radius: 20rpx;
+  background: red;
+  display: inline-block;
   transition: all 0.5s steps(60);
   font-size: 40rpx;
 }
@@ -43,6 +42,7 @@
   position: relative;
   width: 750rpx;
   height: 100rpx;
+  top:800rpx;
   line-height: 100rpx;
   background: red;
 }

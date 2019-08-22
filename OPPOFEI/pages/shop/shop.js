@@ -5,23 +5,49 @@ Page({
    * 页面的初始数据
    */
   data: {
-    yc1: false,
-    yc2: true,
-    yc3: true
+    NRs:[
+      { name: "蔬菜" },
+      { name: "水果" },
+      { name: "蛋糕" },
+      { name: "蛋糕" },
+      { name: "蛋糕" },
+      { name: "蛋糕" }
+    ]
   },
-  jl: function (e) {
+  jl: function () {
     this.setData({
-      yc1: !this.data.yc1
+      NRs: [
+        { name: "蔬菜2" },
+        { name: "水果2" },
+        { name: "蛋糕2" },
+        { name: "蛋糕2" },
+        { name: "蛋糕2" },
+        { name: "蛋糕2" }
+      ]
     })
   },
-  jh: function (e) {
+  jh: function () {
     this.setData({
-      yc2: !this.data.yc2
+      NRs: [
+        { name: "蔬菜3" },
+        { name: "水果3" },
+        { name: "蛋糕3" },
+        { name: "蛋糕3" },
+        { name: "蛋糕3" },
+        { name: "蛋糕3" }
+      ]
     })
   },
-  gl: function (e) {
+  gl: function () {
     this.setData({
-      yc3: !this.data.yc3
+      NRs: [
+        { name: "蔬菜4" },
+        { name: "水果4" },
+        { name: "蛋糕4" },
+        { name: "蛋糕4" },
+        { name: "蛋糕4" },
+        { name: "蛋糕4" }
+      ]
     })
   },
   /**

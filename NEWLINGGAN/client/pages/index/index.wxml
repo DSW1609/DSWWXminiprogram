@@ -1,0 +1,36 @@
+<swiper
+autoplay="true" interval="2000" duration="800" circular = "true" next-margin="0px" easing-function="easeOutCubic" indicator-dots="true" indicator-active-color="#fff">
+<swiper-item bindtap="item4"><image src="../images/19.8.14.png "/></swiper-item>
+<swiper-item bindtap="item1"><image src="../images/19.8.13.png "/></swiper-item>
+<swiper-item bindtap="item2"><image src="../images/19.8.12.png "/></swiper-item>
+<swiper-item bindtap="item3"><image src="../images/quanxinnewlinggan.png"/></swiper-item>
+</swiper>
+<view class='newlist'>
+  <text id='newwenzhang'>精选文章</text>
+
+  <view class='newlist-item' bindtap="item4">
+    <image class='newimg' src='../images/14-03-07.png'></image>
+    <text class='newtitle'>我支持香港警察,你们可以打我了</text>
+    <text class='newbody'>13日晚环球时报记者付国豪在香港机场T1航站楼被“游行示威人士”暴力拘禁殴打。</text>
+  </view>
+
+  <view class='newlist-item' bindtap="item1">
+    <image class='newimg' src='../images/7b87f6bc3d6a05f2136e8a8042c902af1129344.jpg '></image>
+    <text class='newtitle'>流量电影是否已死</text>
+    <text class='newbody'>投资方净亏损高达3.4亿！堪称血本无归，从今以后，再也没有投资方敢轻易使用流量圈钱。</text>
+  </view>
+
+  <view class='newlist-item' bindtap="item2">
+    <image class='newimg' src='../images/6e1fdf79ly1g5vmvunl92j20m80gogpi.jpg '></image>
+    <text class='newtitle'>台风来了你还不快跑吗</text>
+    <text class='newbody'>参与临海洪水灾害救援的消防指战员和民警们在救援告一段落后，不少人陆续席地而睡，枕水入眠。</text>
+  </view>
+
+  <view class='newlist-item' bindtap="item3">
+    <image class='newimg' src='../images/NEWLINGGAN.png'></image>
+    <text class='newtitle'>全新新的灵感正式上线</text>
+    <text class='newbody'>终于确定了新的灵感以后的大方向。我通过以下几点带大家全方位了解一下全新的 新的灵感。</text>
+  </view>
+
+  <view class="more">持续更新中...</view>
+</view>

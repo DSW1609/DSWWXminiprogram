@@ -1,0 +1,25 @@
+<image id='bg' src='../images/my.png'></image>
+<view class='left-top-body'>
+<image id="newicon" src="../images/myon.png"></image>
+<text id='newlg'>新的灵感\n<text style='font-size:12rpx'>DSW NEW LINGGAN</text></text>
+</view>
+<!-- <view id='title'><text>新的灵感\n我在这里\n等你⬇⬇</text></view> -->
+<image id='ewmimg' src='../images/qrcode_for_gh_82498bd3d18b_258.jpg'></image>
+<view id='saoma'><text>扫码立即关注</text></view>
+<view class='lxfs'>
+<image src='../images/phone.png'></image>
+<text>15628960860</text>
+</view>
+<view class='lxfs lxfs2'>
+<image src='../images/weibo.png'></image>
+<text>DSW1609</text>
+</view>
+<view class='lxfs lxfs3'>
+<image src='../images/weixin.png'></image>
+<text>WWX99729</text>
+</view>
+<view class='lxfs lxfs4'>
+<image src='../images/email.png'></image>
+<text>DSW7296666@163.com</text>
+</view>
+<!-- <view class='lxwm'><text>联系\n我们</text></view> -->

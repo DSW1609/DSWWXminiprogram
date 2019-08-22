@@ -8,14 +8,8 @@
         <view class='cs1'>点我显示王王</view>
     </view>
     <view class='right-yc'>
-        <view class='yc1' hidden="{{yc1}}">
-        我是佳林隐藏内容
-        </view>
-        <view class='yc1' hidden="{{yc2}}">
-        我是嘉辉隐藏内容
-        </view>
-        <view class='yc1' hidden="{{yc3}}">
-        我是狗林隐藏内容
+        <view class='yc1' wx:for="{{NRs}}">
+        {{item.name}}
         </view>
     </view>
     <view class='cs'>

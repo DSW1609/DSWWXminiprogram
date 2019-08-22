@@ -1,0 +1,114 @@
+page{
+  background: #207de8;
+}
+text{
+  padding: 0;
+  margin: 0;
+}
+.left-top-body{
+  position: relative;
+  width: 200rpx;
+  height: 60rpx;
+  left: 20rpx;
+  top:10rpx;
+}
+#newlg{
+  position: absolute;
+  font-size: 20rpx;
+  color: #fff;
+  line-height: 22rpx;
+  top:6rpx;
+  width: 140rpx;
+  left: 65rpx;
+}
+#newicon{
+  position: relative;
+  float: left;
+  width: 55rpx;
+  height: 55rpx;
+  border-radius: 50%;
+}
+#title{
+  position: fixed;
+  display: flex;
+  bottom: 600rpx;
+  width: 300rpx;
+  height: auto;
+  font-size: 50rpx;
+  left: 50rpx;
+  letter-spacing: 0.1em;
+  line-height: 80rpx;
+  font-weight: bold;
+  color: #fff;
+}
+#bg{
+  position: fixed;
+  display: flex;
+  bottom: 0rpx;
+  width: 750rpx;
+  height: 1200rpx;
+}
+#ewmimg{
+  position: fixed;
+  display: flex;
+  bottom: 400rpx;
+  left: 50rpx;
+  width: 210rpx;
+  height: 210rpx;
+}
+#saoma{
+  position: fixed;
+  display: flex;
+  bottom: 350rpx;
+  width: 210rpx;
+  height: auto;
+  text-align: center;
+  font-size: 25rpx;
+  color: #fff;
+  left: 86rpx;
+  font-weight: bold;
+}
+.lxfs{
+  position: fixed;
+  display: flex;
+  bottom: 240rpx;
+  width: 450rpx;
+  height: 50rpx;
+  left: 50rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+.lxfs text{
+  margin-left: 10rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 0rpx 5rpx;
+  border-radius: 10rpx;
+}
+.lxfs2{
+  bottom: 170rpx;
+}
+.lxfs3{
+  bottom: 100rpx;
+}
+.lxfs4{
+  bottom: 30rpx;
+}
+.lxfs image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.lxwm{
+  position: fixed;
+  display: flex;
+  bottom: 120rpx;
+  width: auto;
+  left: 300rpx;
+  height: auto;
+  color: #fff;
+  letter-spacing: 0.1em;
+  padding: 8rpx;
+  font-weight: bold;
+  border-radius: 5rpx;
+  font-size: 30rpx;
+}

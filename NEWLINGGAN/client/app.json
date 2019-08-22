@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/item4/item4",
+    "pages/item1/item1",
+    "pages/item2/item2",
+    "pages/item3/item3",
+    "pages/my/my"
+      ],
+      "tabBar": {
+        "color": "#888",
+        "selectedColor": "#4badef",
+        "list": [
+          {
+            "pagePath": "pages/index/index",
+            "text": "首 页",
+           "iconPath": "/pages/images/myon.png",
+          "selectedIconPath": "pages/images/myout.png"
+          },
+          {
+            "pagePath": "pages/my/my",
+            "text": "我 的",
+            "iconPath": "/pages/images/myon.png",
+            "selectedIconPath": "pages/images/myout.png"
+          }
+        ]
+      },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor":"#207de8",
+    "navigationBarTitleText": "新的灵感",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
